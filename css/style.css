@@ -128,7 +128,7 @@ body {
 /* Sidebar section */
 .sidebar-section {
   background-color: #1e2939;
-  width: 370px;
+  width: 100%;
   padding: 40px 0;
 }
 .contacts-section {
@@ -175,5 +175,7 @@ body {
   color: white;
 }
 .img-123 {
-  margin: 0 50px 0 50px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
